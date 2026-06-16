@@ -1,0 +1,22 @@
+{
+  "name": "wallsocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.97",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "groq-sdk": "^1.2.0",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.4.1",
+    "node-cron": "^4.2.1"
+  }
+}
