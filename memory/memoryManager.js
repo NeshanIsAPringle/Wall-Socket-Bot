@@ -1,5 +1,5 @@
-const UserMemory = require("../models/UserMemory");
-const GuildSettings = require("../models/GuildSettings");
+const UserMemory = require("../memory/UserMemory");
+const GuildSettings = require("../memory/GuildSettings");
 
 // in‑memory short‑term conversation buffer: channelId -> [{role, content}]
 const convoBuffers = new Map();
